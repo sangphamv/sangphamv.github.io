@@ -1,189 +1,277 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog của Sang</title> 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <link rel="stylesheet" href="styles.css" />
 
-  <body>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+  
+  <title>Web của Sang</title>
+</head>
+<body>
 
-    <!-- START NAV -->
-    <nav id="navbar" class="nav">
-      <ul class="nav-list">
-        <li>
-          <a href="#welcome-section">About</a>
-        </li>
-        <li>
-          <a href="#projects">Project</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- END NAV -->
+  <!--Navigation-->
+  <nav id="nav" class="nav">
+    <ul id="nav-list" class="nav-list">
+      <li>
+        <a href="#welcome-section">Trang chủ</a>
+      </li>
+      <li>
+        <a href="#about-section">Tác giả</a>
+      </li>
+      <li>
+        <a href="#projects-section">Dự án</a>
+      </li>
+      <li>
+        <a href="#blog-section">Bài viết</a>
+      </li>
+      <li>
+        <a href="#contact-section">Liên hệ</a>
+      </li>
+    </ul>
+  </nav>
 
-    <!-- START WELCOME SECTION -->
-    <section id="welcome-section" class="welcome-section">
-      <h1>Chào tôi là Sang</h1>
-      <p>Tôi học Công nghệ Kỹ thuật Điện - Điện tử</p>
-    </section>
-    <!-- END WELCOME SECTION -->
+  <!--Welcome Section-->
+  <section id="welcome-section" class="welcome-section">
+    <h1>Chào tôi là Sang</h1>
+    <p>Tôi học Công nghệ Kỹ thuật Điện - Điện tử</p>
+  </section>
 
-    <!-- START PROJECTS SECTION -->
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">Một vài project</h2>
+  <!--About Me Section-->
+  <section id="about-section" class="about-section">
+    <h2>Hi I'm Sang</h2>
+    <p>Tôi tên Phạm Văn Sang tôi là tác giả của trang này </p>
+  </section>
 
-      <div class="projects-grid">
-        <a
-          href="https://codepen.io/freeCodeCamp/full/zNqgVx"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Kiến thức Điện - Điện tử
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Kiến thức Tự động hóa
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://codepen.io/freeCodeCamp/full/wgGVVX"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Mô phỏng 
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://codepen.io/freeCodeCamp/full/mVEJag"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Automation Contest
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://codepen.io/freeCodeCamp/full/wGqEga"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Đồ án tốt nghiệp
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://codepen.io/freeCodeCamp/full/KzXQgy"
-          target="_blank"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Tự học
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-      </div>
-    </section>
-    <!-- END PROJECTS SECTION -->
+  <!--Projects Section-->
+  <section id="projects-section" class="projects-section">
+    <h2 class="projects-section-header">Dưới đây là một số dự án</h2>
+    <div class="projects-grid">
+      <a
+        href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.dribbble.com/userupload/5811787/file/original-25c7463b2dca082ff92a2446a9076e23.jpg?compress=1&resize=1024x575"
+          alt="project"
+        />
+        <p class="project-title">
+          Điều khiển mạng servo trong hệ thống phân loại sản phẩm dùng mã vạch
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.dribbble.com/userupload/5811940/file/original-0de5dcd418b769d5c2ba320184bae640.png?compress=1&resize=1600x900"
+          alt="project"
+        />
+        <p class="project-title">
+          Hệ thống phân loại hàng hóa theo chiều cao và cân nặng
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.dribbble.com/userupload/5812300/file/original-9f33c98b5935ac9e270056d2f8eaa92f.png?compress=1&resize=752x606"
+          alt="project"
+        />
+        <p class="project-title">
+          Điều khiển đèn giao thông ở ngã tư
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/mVEJag"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          Máy Mài với các thiết lập về khoảng mài, thời gian mài có tính đến độ mòn của đá mài khi mài nhiều con hàng
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/wGqEga"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+          alt="project"
+        />
+        <p class="project-title">
+          Máy Cắt với thiết lập chia đoạn theo khoảng cách
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+          alt="project"
+        />
+        <p class="project-title">
+          Chế độ Manual Mode sử dụng MPG (Manual Pulse Generator ) thực hiện các chuyển động nhỏ để dò phôi trong máy CNC
+        </p>
+      </a>
+    </div>
+    <a
+      href="https://codepen.io/FreeCodeCamp/"
+      class="btn btn-show-all"
+      target="_blank"
+      >Show all<i class="fas fa-chevron-right"></i
+    ></a>
+  </section>
 
-    <!-- START CONTACT SECTION -->
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
-        <h2>Let's work together...</h2>
-        <p>Bạn có thể liên lạc với tôi qua</p>
-      </div>
-      <div class="contact-links">
-        <a
-          href="https://www.facebook.com/PhamSang1999/"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-facebook-square"></i> Facebook</a
-        >
-        <a
-          id="profile-link"
-          href="https://github.com/sangphamv"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-github"></i> GitHub</a
-        >
-        <a
-          href="https://www.linkedin.com/in/sangphamv/"
-          target="_blank"
-          class="btn contact-details"
-          ><i class="fab fa-linkedin"></i> Linkedin</a
-        >
-        <a href="mailto:sangphamv@gmail.com" 
-          class="btn contact-details"><i class="fas fa-at"></i> Send a Mail</a
-        >
-      </div>
-    </section>
-    <!-- END CONTACT SECTION -->
+  <!--Blog Section-->
+  <section id="blog-section" class="blog-section">
+    <p>Blog</p>
+    <div class="blog-grid">
+      <a
+        href="https://codereeCodeCamp/full/zNqgVx"
+        target="_blank"
+        class="blog blog-tile"
+      >
+        <img
+          class="blog-image"
+          src="https://cdn.dribbble.com/userupload/5194860/file/original-8c4bbf96b6c3cc8e5d6cd43ef60e3c4b.png?compress=1&resize=1200x900"
+          alt="blog"
+        />
+        <p class="blog-title">
+          PLC Mitsubishi
+        </p>
+      </a>
+      <a
+        href="https://codepeneCodeCamp/full/qRZeGZ"
+        target="_blank"
+        class="blog blog-tile"
+      >
+        <img
+          class="blog-image"
+          src="https://cdn.dribbble.com/userupload/5194860/file/original-8c4bbf96b6c3cc8e5d6cd43ef60e3c4b.png?compress=1&resize=1200x900"
+          alt="blog"
+        />
+        <p class="blog-title">
+          PLC Siemens
+        </p>
+      </a>
+      <a
+        href="https://codepen.CodeCamp/full/wgGVVX"
+        target="_blank"
+        class="blog blog-tile"
+      >
+        <img
+          class="blog-image"
+          src="https://cdn.dribbble.com/userupload/5194860/file/original-8c4bbf96b6c3cc8e5d6cd43ef60e3c4b.png?compress=1&resize=1200x900"
+          alt="blog"
+        />
+        <p class="blog-title">
+          PLC và SCADA
+        </p>
+      </a>
+      <a
+        href="https://codepen.ieCamp/full/mVEJag"
+        target="_blank"
+        class="blog blog-tile"
+      >
+        <img
+          class="blog-image"
+          src="https://cdn.dribbble.com/userupload/5194860/file/original-8c4bbf96b6c3cc8e5d6cd43ef60e3c4b.png?compress=1&resize=1200x900"
+          alt="blog"
+        />
+        <p class="blog-title">
+          Chiếu sáng khẩn cấp 
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/fr/full/wGqEga"
+        target="_blank"
+        class="blog blog-tile"
+      >
+        <img
+          class="blog-image"
+          src="https://cdn.dribbble.com/userupload/5194860/file/original-8c4bbf96b6c3cc8e5d6cd43ef60e3c4b.png?compress=1&resize=1200x900"
+          alt="blog"
+        />
+        <p class="blog-title">
+          Chiếu sáng dân dụng
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/eCamp/full/KzXQgy"
+        target="_blank"
+        class="blog blog-tile"
+      >
+        <img
+          class="blog-image"
+          src="https://cdn.dribbble.com/userupload/5194860/file/original-8c4bbf96b6c3cc8e5d6cd43ef60e3c4b.png?compress=1&resize=1200x900"
+          alt="blog"
+        />
+        <p class="blog-title">
+          Chiếu sáng công nghiệp
+        </p>
+      </a>
+    </div>
+    
+    <a
+      href="https://codepeCodeCamp/"
+      class="btn btn-show-all"
+      target="_blank"
+      >Show all<i class="fas fa-chevron-right"></i
+    ></a>
+  </section>
 
-    <!-- START FOOTER SECTION -->
-    <footer>
-      <p>
-        **Trang web này được lấy ý tưởng từ freeCodeCamp.org
-      </p>
-      <p>
-        &copy; Created for
-        <a href="https://github.com/sangphamv" target="_blank"
-          >SangPham <i class="fab fa-free-code-camp"></i
-        ></a>
-      </p>
-    </footer>
-    <!-- END FOOTER SECTION -->
+  <!--Contact Section-->
+  <section id="contact-section" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Liên hệ với tôi</h2>
+      <p>How do you take your coffee?</p>
+    </div>
+    <div class="contact-links">
 
-  </body>
+      <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+      <a href="mailto:example@example.com" class="btn contact-details"><i class="fas fa-envelope"></i> Mail</a>
+
+      <a href="mailto:example@example.com" class="btn contact-details"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="mailto:example@example.com" class="btn contact-details"><i class="fab fa-dribbble"></i> Dribble</a>
+      <a href="mailto:example@example.com" class="btn contact-details"><i class="fab fa-behance"></i> Behance</a>
+
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <p>
+      ***************************
+    </p>
+    <p>
+      &copy; Created for
+      <a href="https://www.freecodecamp.com/" target="_blank"
+        >SangPham <i class="fab fa-free-code-camp"></i
+      ></a>
+    </p>
+  </footer>
+</body>
 </html>
