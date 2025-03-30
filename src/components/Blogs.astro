@@ -1,0 +1,139 @@
+---
+
+---
+
+<div class="blogs">
+  <div class="container">
+    <h3>Blogs</h3>
+    <div class="group-card">
+      <!-- From Uiverse.io by gharsh11032000 -->
+      <div class="card">
+        <div class="content">
+          <p class="heading">Card Hover Effect</p><p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            laboriosam at voluptas minus culpa deserunt delectus sapiente
+            inventore pariatur
+          </p>
+          <button class="btn">Read more</button>
+        </div>
+      </div>
+      <!-- From Uiverse.io by gharsh11032000 -->
+      <div class="card">
+        <div class="content">
+          <p class="heading">Card Hover Effect</p><p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            laboriosam at voluptas minus culpa deserunt delectus sapiente
+            inventore pariatur
+          </p>
+          <button class="btn">Read more</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .container {
+    padding: 4rem 0;
+    margin: 0 auto;
+    max-width: 120rem;
+  }
+  h3 {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #333;
+    padding: 4rem 0;
+  }
+
+  .group-card {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #333333;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .content .heading {
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+  .content .para {
+    line-height: 1.5;
+  }
+
+  .content .btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #11998e 0%, #38ef7d 100%);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 5px;
+    height: 100%;
+    background: linear-gradient(-45deg, #11998e 0%, #38ef7d 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .card:hover::before {
+    width: 100%;
+  }
+
+  .card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+
+  .card:hover .heading {
+    color: #ffffff;
+  }
+  .card:hover .para {
+    color: #ffffff;
+  }
+
+  .card:hover .btn {
+    color: #212121;
+    background: #e8e8e8;
+  }
+
+  .content .btn:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+  }
+
+  .content .btn:active {
+    box-shadow: none;
+  }
+</style>
