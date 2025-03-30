@@ -4,6 +4,21 @@
 
 <header class="header">
   <div class="container">
+    <div class="hamburger" id="hamburger">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-menu"
+        ><path d="M3 12h18M3 6h18M3 18h18"></path></svg
+      >
+    </div>
     <div class="logo">
       <a href="">
         <span>&lt;</span>Sang Pham<span>/&gt;</span>
@@ -23,7 +38,15 @@
     </div>
   </div>
 </header>
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navbar = document.querySelector(".navbar ul");
 
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navbar.classList.toggle("active");
+  });
+</script>
 <style>
   .header {
     position: fixed;
@@ -42,6 +65,12 @@
     grid-template-columns: 15% 70% 15%;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
   }
 
   .logo a {
@@ -110,5 +139,38 @@
 
   .btn:active {
     background-color: #87dbd0;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      position: relative;
+    }
+    .container {
+      display: flex;
+      padding: 2rem;
+      height: auto;
+    }
+    .navbar ul {
+      display: none;
+    }
+
+    .contact-button {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active + .navbar ul {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
   }
 </style>

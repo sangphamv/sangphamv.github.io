@@ -86,8 +86,7 @@ import HeroImg from "@public/hero.jpg";
 </div>
 
 <style>
-  .welcome {
-  }
+
 
   .container {
     margin: 0 auto;
@@ -232,5 +231,47 @@ import HeroImg from "@public/hero.jpg";
       rgba(0, 0, 0, 1) 30%,
       rgba(0, 0, 0, 0) 100%
     );
+  }
+
+
+  @media (max-width: 768px) {
+    .container {
+      text-align: center;
+      grid-template-columns: 1fr; /* Chuyển sang một cột */
+      padding: 2rem;
+      width: 100%;
+      height: auto;
+    }
+
+    .content {
+      gap: 2rem;
+    }
+
+    .content h1 {
+      font-size: 6rem; /* Giảm kích thước h1 */
+    }
+
+    .content h3 {
+      font-size: 2.5rem; /* Giảm kích thước h3 */
+    }
+
+    .content p {
+      font-size: 1.6rem; /* Điều chỉnh kích thước chữ */
+    }
+
+    .hero img {
+      width: 100%; /* Đảm bảo hình ảnh co giãn theo màn hình */
+      height: auto;
+    }
+
+    .group-btn{
+      flex-direction: column; /* Đặt các nút xuống hàng */
+      gap: 1rem; /* Giảm khoảng cách giữa các nút */
+    }
+
+    .social-icons {
+      flex-wrap: wrap; /* Cho phép các biểu tượng xã hội xuống hàng */
+      justify-content: center; /* Căn giữa các biểu tượng xã hội */
+    }
   }
 </style>
