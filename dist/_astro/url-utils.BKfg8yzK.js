@@ -1,0 +1,1 @@
+import"./zh_TW.Ds_OSC08.js";function s(n,o){const t=n.replace(/^\/|\/$/g,"").toLowerCase(),e=o.replace(/^\/|\/$/g,"").toLowerCase();return t===e}function r(...n){return n.join("/").replace(/\/+/g,"/")}function u(n){return a(`/posts/${n}/`)}function a(n){return r("","/sangphamv.github.io/",n)}export{u as g,s as p,a as u};
