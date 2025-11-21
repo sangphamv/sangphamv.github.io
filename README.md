@@ -97,3 +97,13 @@ Check out the [Contributing Guide](https://github.com/saicaca/fuwari/blob/main/C
 This project is licensed under the MIT License.
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsaicaca%2Ffuwari?ref=badge_large&issueType=license)
+
+## Custom
+
+Chỉnh File config
+Chỉnh File i8n/viet
+
+npx astro add partytown
+
+gg search console add to 
+<meta name="google-site-verification" content="MZCOtIY9CXB2F2E5voyhF9lgftWUeoU5_TfFlWyD9gE" />
