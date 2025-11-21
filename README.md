@@ -104,6 +104,6 @@ Chỉnh File config
 Chỉnh File i8n/viet
 
 npx astro add partytown
-
+GA4
 gg search console add to 
 <meta name="google-site-verification" content="MZCOtIY9CXB2F2E5voyhF9lgftWUeoU5_TfFlWyD9gE" />
