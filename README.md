@@ -100,10 +100,8 @@ This project is licensed under the MIT License.
 
 ## Custom
 
-Chỉnh File config
-Chỉnh File i8n/viet
-
-npx astro add partytown
-GA4
-gg search console add to 
-<meta name="google-site-verification" content="MZCOtIY9CXB2F2E5voyhF9lgftWUeoU5_TfFlWyD9gE" />
+Edit File config
+Edit File i8n/vietnam
+Add partytown
+Add GA4
+Add GSC 
